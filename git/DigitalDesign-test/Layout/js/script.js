@@ -1,0 +1,50 @@
+(function () {
+    'use strict';
+
+    function trackScroll() {
+        let scrolled = window.pageYOffset;
+        let coords = document.documentElement.clientHeight;
+
+        if (scrolled > coords) {
+            goTopBtn.classList.add('back_to_top-show');
+        }
+        if (scrolled < coords) {
+            goTopBtn.classList.remove('back_to_top-show');
+        }
+    }
+
+    function backToTop() {
+        if (window.pageYOffset > 0) {
+            window.scrollBy(0, -80);
+            setTimeout(backToTop, 0);
+        }
+    }
+
+    let goTopBtn = document.querySelector('.back_to_top');
+
+    window.addEventListener('scroll', trackScroll);
+    goTopBtn.addEventListener('click', backToTop);
+})();
+
+const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
+    animationTime = 300,
+    framesCount = 20;
+
+anchors.forEach(function (item) {
+    item.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        let coordY = document.querySelector(item.getAttribute('href')).getBoundingClientRect().top + window.pageYOffset;
+
+        let scroller = setInterval(function () {
+            let scrollBy = coordY / framesCount;
+
+            if (scrollBy > window.pageYOffset - coordY && window.innerHeight + window.pageYOffset < document.body.offsetHeight) {
+                window.scrollBy(0, scrollBy);
+            } else {
+                window.scrollTo(0, coordY);
+                clearInterval(scroller);
+            }
+        }, animationTime / framesCount);
+    });
+});
