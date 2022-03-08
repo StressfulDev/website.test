@@ -1,289 +1,342 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>HTML5 - верстка с комфортом</title>
-		<link rel="shortcut icon" href="img/html5-logo.svg" type="image/x-icon">
-		<link rel="stylesheet" href="style/normalize.css">
-		<link rel="stylesheet" href="style/style.css">
-	</head>
-	<body>
-			<article class="art art_container">
-					<a class="back_to_top" title="Наверх">↑</a>
-					<section class="header art__header">
-							<h1 class="header__title">
-								<span class="header__title_bold">HTML5</span> - верстай с комфортом!
-							</h1>
-							<p class="header__descr section_descr">
-								<a class="header__link" href="https://ru.wikipedia.org/wiki/HTML" target="_blank"><abbr class="header__link_abbr" title="Hyper Text Markup Language">HTML</abbr></a>&nbsp;&mdash; язык гипертекстовой разметки, который используют для создания веб-страниц. Это технология, которая позволяет изменять внешний вид веб-страниц и&nbsp;вносить дальнейшие корректировки. Он&nbsp;также используется для структурирования и&nbsp;представления контента для Интернета.
-							</p>
-							<p class="header__descr section_descr">
-								С&nbsp;помощью HTML&nbsp;браузеры, такие как Firefox, Chrome, Explorer, Safari и&nbsp;другие, могут знать, как отображать конкретную веб-страницу, знать, где находятся элементы, где размещать изображения и&nbsp;где размещать текст.
-							</p>
-					</section>
-					<section class="nav art__nav">
-							<h2 class="nav__title">
-								Содержание
-							</h2>
-							<p class="nav__descr">
-								Помимо HTML, существуют и&nbsp;другие языки, которые необходимы для форматирования и&nbsp;интерактивности сайта, но&nbsp;базовая структура любой страницы сначала определяется в&nbsp;языке HTML. Давайте разберем его поподробнее:
-							</p>
-							<ul class="nav__list list_reset">
-									<li class="nav__item">
-											<a class="nav__link" href="#history">
-												Краткая история HTML
-											</a>
-									</li>
-									<li class="nav__item">
-											<a class="nav__link" href="#birth">
-												Рождение HTML5
-											</a>
-									</li>
-									<li class="nav__item">
-											<a class="nav__link" href="#goals">
-												Цели HTML5
-											</a>
-									</li>
-									<li class="nav__item">
-											<a class="nav__link" href="#features">
-												Совместимость и возможности HTML5
-											</a>
-									</li>
-									<li class="nav__item">
-											<a class="nav__link" href="#semantics">
-												Семантическая верстка в HTML5
-											</a>
-									</li>
-									<li class="nav__item">
-											<a class="nav__link" href="#source">
-												Ссылки по теме
-											</a>
-									</li>
-							</ul>
-					</section>
-					<section id="history" class="history art__history">
-							<h3 class="history__title section_title">
-								Краткая история HTML
-							</h3>
-							<p class="history__descr section_descr">
-								История языка HTML началась в&nbsp;1991&nbsp;году, когда сэр Тим Бёрнерс Ли&nbsp;представил миру HTML 1.0, в&nbsp;котором тогда описывалось всего лишь 20&nbsp;тегов. Спецификации для языка HTML 1.0&nbsp;не существовало.
-							</p>
-							<p class="history__descr section_descr">
-								В&nbsp;1994 году был создан <a class="history__link" href="https://www.w3.org/" target="_blank">W3C</a>&nbsp;&mdash; World Wide Web Consortium (Консорциум Всемирной паутины), который в&nbsp;1996 году создаёт HTML 2.0, а&nbsp;также спецификацию для него. W3C&nbsp;&mdash; это специальная структура, которая развивает и&nbsp;создаёт различные веб-технологии, в&nbsp;неё может войти любая организация или частное лицо, заинтересованное в&nbsp;развитии интернета.
-							</p>
-							<figure class="history__pic">
-									<img src="img/w3c.svg" alt="Логотип WC3">
-									<figcaption class="history__caption">
-										Цветочная структура логотипа SVG вызывает творчество и&nbsp;рост, а&nbsp;соединенные узлы указывают на&nbsp;интеграцию с&nbsp;другими технологиями.
-									</figcaption>
-							</figure>
-							<p class="history__descr section_descr">
-								В&nbsp;январе 1997&nbsp;года, W3C создает HTML 3.2, затем в&nbsp;декабре того&nbsp;же года HTML 4.0, а&nbsp;в&nbsp;декабре 1999 года HTML 4.01.
-							</p>
-							<p class="history__descr section_descr">
-								Многие разработчики и&nbsp;крупные игроки веб-индустрии начали проявлять недовольство политикой и&nbsp;работой W3C, они хотели чтобы язык обладал обратной совместимостью, а&nbsp;также чтобы в&nbsp;новом языке появились стандарты для создания веб-приложений.
-							</p>
-					</section>
-					<section id="birth" class="birth art__birth">
-							<h3 class="birth__title section_title">
-								Рождение HTML5
-							</h3>
-							<p class="birth__descr section_descr">
-								HTML4 трещал по&nbsp;швам под напором новых видов приложений. Многие вещи были просто недоступны и&nbsp;требовали плагинов типа Adobe Flash или Microsoft Silverlight. Приходилось идти на&nbsp;всяческие уловки и&nbsp;ухищрения, использовать нестандартные, недокументированные приемы, что было не&nbsp;очень-то надежной основой для сайтов, созданных для заработка. С&nbsp;этого момента начинается новая глава в&nbsp;истории веб-разработки.
-							</p>
-							<figure class="birth__pic">
-									<img src="img/html5-sticker.svg" alt="Логотип HTML5">
-									<figcaption class="birth__caption">
-										18 января 2011 года W3C ввёл логотип, чтобы представить использование или добавить интерес к HTML5, изображен справа
-									</figcaption>
-							</figure>
-							<p class="birth__descr section_descr">
-								В&nbsp;2004&nbsp;году, когда большая часть видных деятелей веб-индустрии, а&nbsp;также крупных компаний таких как (Google, Mozilla, Opera, Apple и&nbsp;Microsoft), создают свою собственную рабочую группу под названием <a class="birth__link" href="https://whatwg.org/" target="_blank"> <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr></a> (возглавил её&nbsp;гениальный программист&nbsp;&mdash; Ян&nbsp;Хиксон).
-							</p>
-							<p class="birth__descr section_descr">
-								Перед тем как начать работать над HTML5, рабочая группа WHATWG создала две спецификации: Web Forms&nbsp;2.0 (веб-формы) и&nbsp;Web Apps&nbsp;1.0 (веб-приложения). Затем эти две спецификации сделали частью спецификации HTML5.
-							</p>
-							<p class="birth__descr section_descr">
-								В&nbsp;2006 году W3C начал разработку своей версии HTML 5 (пишется через пробел), в её основе лежали наработки рабочей группы WHATWG.
-							</p>
-							<p class="birth__descr section_descr">
-								Сам WHATWG работал над своей версией HTML5 (пишется без пробела), причем эта версия тоже должна была стать одной из&nbsp;спецификаций консорциума W3C.
-							</p>
-							<p class="birth__descr section_descr">
-								В&nbsp;2009 году W3C прекратил развитие XHTML 2.0 и&nbsp;начал разрабатывать HTML5 (решили писать без пробела) уже совместно с&nbsp;WHATWG.
-							</p>
-							<p class="birth__descr section_descr">
-								К&nbsp;2012-му году, практически все современные браузеры в&nbsp;мире, начинают понимать язык HTML5, хотя еще и&nbsp;остаются некоторые теги которые браузеры пока не&nbsp;понимают.
-							</p>
-							<p class="birth__descr section_descr">
-								На&nbsp;данный момент, работа над языком HTML5&nbsp;продолжается, создаются новые теги и&nbsp;технологии, всё это добавляется в&nbsp;спецификацию, сама спецификация HTML5 была опубликовна (28&nbsp;октября 2014&nbsp;г.).
-							</p>
-							<p class="birth__descr section_descr">
-								В&nbsp;будущем, решили не&nbsp;давать цифровых версий для HTML, если будут добавляться какие-либо новшества то&nbsp;их&nbsp;просто будут внедрять в&nbsp;существующую спецификацию, а&nbsp;сам язык называть просто HTML.
-							</p>
-					</section>
-					<section id="goals" class="goals art__goals">
-							<h3 class="goals__title section_title">
-								Цели HTML5
-							</h3>
-							<p class="goals__descr section_descr">
-								Согласно Википедии, цель разработки <a class="goals__link" href="https://ru.wikipedia.org/wiki/HTML5" target="_blank">HTML5:</a>
-							</p>
-							<blockquote class="goals__quote" cite="https://ru.wikipedia.org/wiki/HTML5">
-								...улучшение уровня поддержки мультимедиа-технологий с&nbsp;одновременным сохранением обратной совместимости, удобочитаемости кода для человека и&nbsp;простоты анализа для парсеров.
-							</blockquote>
-							<p class="goals__descr section_descr">
-								Вот краткое описание того, как <a class="goals__link" href="https://www.makeuseof.com/tag/what-is-html5-and-how-does-it-change-the-way-i-browse-makeuseof-explains/" target="_blank">MakeUseOf</a> объясняет цели HTML5:
-							</p>
-							<ul class="goals__list">
-									<li class="goals__item">
-										Устранение плагинов, таких как Flash, для общих функций, которые вам нужны. Создание собственной поддержки для таких вещей, как аудио, видео и&nbsp;т.д.
-									</li>
-									<li class="goals__item">
-										Уменьшение необходимости в&nbsp;JavaScript и&nbsp;дополнительном коде с&nbsp;новыми встроенными элементами.
-									</li>
-									<li class="goals__item">
-										Обеспечение согласованности между браузерами и&nbsp;устройствами.
-									</li>
-									<li class="goals__item">
-										При этом сделать все это максимально прозрачным.
-									</li>
-							</ul>
-					</section>
-					<section id="features" class="features art__features">
-							<h3 class="features__title section_title">
-								Совместимость и возможности HTML5
-							</h3>
-							<p class="features__descr section_descr">
-								HTML5 предоставляет такой впечатляющий список новых возможностей, что основные браузеры по-прежнему не&nbsp;полностью их поддерживают.
-							</p>
-							<p class="features__descr section_descr">
-								Для проверки совместимости браузеров и&nbsp;возможностей HTML5, рекомендую использовать информацию с&nbsp;веб-сайта <a class="features__link" href="https://caniuse.com/" target="_blank">Can I&nbsp;use</a>&nbsp;&mdash; они предоставляют актуальные таблицы поддержки браузеров для поддержки интерфейсных веб-технологий в&nbsp;настольных и&nbsp;мобильных веб-браузерах.
-							</p>
-					</section>
-					<section id="semantics" class="semantics art__semantics">
-							<h3 class="semantics__title section_title">
-								Семантическая верстка в HTML5
-							</h3>
-							<p class="semantics__descr section_descr">
-								HTML&nbsp;теги, которые в&nbsp;большинстве своём используются для форматирования контента&nbsp;&mdash; они говорят браузеру как показывать контент на&nbsp;странице. Они не&nbsp;дают определение типу содержащегося контента или какую роль играет контент на&nbsp;странице.
-							</p>
-							<figure class="semantics__img">
-									<img src="img/semantic.svg" alt="Совместимость с браузером HTML5">
-							</figure>
-							<p class="semantics__descr section_descr">
-								Семантический HTML5 устраняет этот недостаток, определяя точные теги для пояснения четкой роли контента на&nbsp;странице. Эта дополнительная информация помогает роботам/индексаторам, таким как Google и&nbsp;Bing лучше понять какой контент важен, какой является второстепенным, какой используется для навигации и&nbsp;так далее. Добавляя семантические HTML теги на&nbsp;ваши страницы, вы&nbsp;даете дополнительную информацию, которая помогает поисковикам понимать роли и&nbsp;относительную важность разных частей ваших страниц.
-							</p>
-							<p class="semantics__descr section_descr">
-								HTML5 предлагает новые семантические элементы для определения различных частей веб-страницы:
-							</p>
-							<div class="semantics__wrap flex">
-									<ul class="semantic__list flex">
-											<li class="semantic__item">
-												&lt;article&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;aside&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;details&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;figcaption&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;figure&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;footer&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;header&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;main&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;mark&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;nav&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;section&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;summary&gt;
-											</li>
-											<li class="semantic__item">
-												&lt;time&gt;
-											</li>
-									</ul>
-									<figure class="semantics__pic flex">
-											<img src="img/semantic.jpeg" alt="Совместимость с браузером HTML5">
-									</figure>
-							</div>
-					</section>
-					<section class="source">
-							<h3 id="source" class="source__title section_title">
-								Ссылки по теме
-							</h3>
-							<p class="source__descr section_descr">
-								Поскольку для HTML5 существует так много полезных ресурсов, я&nbsp;включил дополнительную помощь некоторых из&nbsp;тех, которые я&nbsp;считаю наиболее полезными:
-							</p>
-							<ul class="source__list list_reset">
-									<li class="source__item">
-										<a class="source__link" href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
-											HTML5 (Википедия)
-										</a>
-									</li>
-									<li class="source__item">
-										<a class="source__link" href="https://www.w3schools.com/html/default.asp" target="_blank">
-											Что нового в HTML5? (W3 Schools)
-										</a>
-									</li>
-									<li class="source__item">
-										<a class="source__link" href="http://html5doctor.com/" target="_blank">
-											Доктор HTML5
-										</a>
-									</li>
-									<li class="source__item">
-										<a class="source__link" href="https://code.tutsplus.com/articles/21-ridiculously-impressive-html5-canvas-experiments--net-14210" target="_blank">
-											21 Смешные впечатляющие эксперименты с холстом HTML5 (Envato Tuts +)
-										</a>
-									</li>
-									<li class="source__item">
-										<a class="source__link" href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/" target="_blank">
-											Кодирование макета HTML 5 с нуля (Smashing Magazine)
-										</a>
-									</li>
-									<li class="source__item">
-										<a class="source__link" href="https://www.tutorialrepublic.com/html-examples.php" target="_blank">
-											Примеры HTML5: Учебное пособие
-										</a>
-									</li>
-									<li class="source__item">
-										<a class="source__link" href="https://bestvpn.org/html5demos/" target="_blank">
-											Демо-версии и примеры HTML5
-										</a>
-									</li>
-									<li class="source__item">
-										<a class="source__link" href="https://html5test.com/" target="_blank">
-											HTML5Test: насколько хорошо ваш браузер поддерживает HTML5
-										</a>
-									</li>
-							</ul>
-					</section>
-					<section id="conclusion" class="conclusion art__conclusion">
-							<h2 class="conclusion__title">
-								Заключение
-							</h2>
-							<p class="conclusion__descr section_descr">
-								HTML5 делает более комфортным использование интернета для обычных пользователей. Также HTML5&nbsp;&mdash; это объемная мощная технология, которая делает разработку более удобным и&nbsp;приятным занятием. Он&nbsp;действительно делает более комфортной веб-жизнь пользователя и&nbsp;разработчика, остается только решить, на&nbsp;чей стороне&nbsp;вы?							</p>
-					</section>
-			</article>
-			<script defer src="js/script.js"></script>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 - верстка с комфортом</title>
+  <link rel="shortcut icon" href="img/html5-logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+  <body>
+  <article class="art art_container">
+    <a class="back_to_top" title="Наверх">↑</a>
+    <section class="header art__header">
+      <h1 class="header__title">
+        <span class="header__title_bold">HTML5</span> - верстай с комфортом!
+      </h1>
+      <p class="header__descr section_descr">
+        <a class="header__link" href="https://ru.wikipedia.org/wiki/HTML" target="_blank">
+          <abbr class="header__link_abbr" title="Hyper Text Markup Language">HTML</abbr>
+        </a>&nbsp;&mdash;язык гипертекстовой разметки, который используют для создания веб-страниц. Это технология, которая позволяет
+        изменять внешний вид веб-страниц и&nbsp;вносить дальнейшие корректировки. Он&nbsp;также используется для
+        структурирования и&nbsp;представления контента для Интернета.
+      </p>
+      <p class="header__descr section_descr">
+        С&nbsp;помощью HTML&nbsp;браузеры, такие как Firefox, Chrome, Explorer, Safari и&nbsp;другие, могут знать, как
+        отображать конкретную веб-страницу, знать, где находятся элементы, где размещать изображения и&nbsp;где размещать
+        текст.
+      </p>
+    </section>
+    <section class="nav art__nav">
+      <h2 class="nav__title">
+        Содержание
+      </h2>
+      <p class="nav__descr">
+        Помимо HTML, существуют и&nbsp;другие языки, которые необходимы для форматирования и&nbsp;интерактивности сайта,
+        но&nbsp;базовая структура любой страницы сначала определяется в&nbsp;языке HTML. Давайте разберем его поподробнее:
+      </p>
+      <ul class="nav__list list_reset">
+        <li class="nav__item">
+          <a class="nav__link" href="#history">
+            Краткая история HTML
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#birth">
+            Рождение HTML5
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#goals">
+            Цели HTML5
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#features">
+            Совместимость и возможности HTML5
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#semantics">
+            Семантическая верстка в HTML5
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#source">
+            Ссылки по теме
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section id="history" class="history art__history">
+      <h3 class="history__title section_title">
+        Краткая история HTML
+      </h3>
+      <p class="history__descr section_descr">
+        История языка HTML началась в&nbsp;1991&nbsp;году, когда сэр Тим Бёрнерс Ли&nbsp;представил миру HTML 1.0, в&nbsp;котором
+        тогда описывалось всего лишь 20&nbsp;тегов. Спецификации для языка HTML 1.0&nbsp;не существовало.
+      </p>
+      <p class="history__descr section_descr">
+        В&nbsp;1994 году был создан <a class="history__link" href="https://www.w3.org/" target="_blank">W3C</a>&nbsp;&mdash;
+        World Wide Web Consortium (Консорциум Всемирной паутины), который в&nbsp;1996 году создаёт HTML 2.0, а&nbsp;также
+        спецификацию для него. W3C&nbsp;&mdash; это специальная структура, которая развивает и&nbsp;создаёт различные
+        веб-технологии, в&nbsp;неё может войти любая организация или частное лицо, заинтересованное в&nbsp;развитии
+        интернета.
+      </p>
+      <figure class="history__pic">
+        <img src="img/w3c.svg" alt="Логотип WC3">
+        <figcaption class="history__caption">
+          Цветочная структура логотипа SVG вызывает творчество и&nbsp;рост, а&nbsp;соединенные узлы указывают на&nbsp;интеграцию
+          с&nbsp;другими технологиями.
+        </figcaption>
+      </figure>
+      <p class="history__descr section_descr">
+        В&nbsp;январе 1997&nbsp;года, W3C создает HTML 3.2, затем в&nbsp;декабре того&nbsp;же года HTML 4.0, а&nbsp;в&nbsp;декабре
+        1999 года HTML 4.01.
+      </p>
+      <p class="history__descr section_descr">
+        Многие разработчики и&nbsp;крупные игроки веб-индустрии начали проявлять недовольство политикой и&nbsp;работой
+        W3C, они хотели чтобы язык обладал обратной совместимостью, а&nbsp;также чтобы в&nbsp;новом языке появились
+        стандарты для создания веб-приложений.
+      </p>
+    </section>
+    <section id="birth" class="birth art__birth">
+      <h3 class="birth__title section_title">
+        Рождение HTML5
+      </h3>
+      <p class="birth__descr section_descr">
+        HTML4 трещал по&nbsp;швам под напором новых видов приложений. Многие вещи были просто недоступны и&nbsp;требовали
+        плагинов типа Adobe Flash или Microsoft Silverlight. Приходилось идти на&nbsp;всяческие уловки и&nbsp;ухищрения,
+        использовать нестандартные, недокументированные приемы, что было не&nbsp;очень-то надежной основой для сайтов,
+        созданных для заработка. С&nbsp;этого момента начинается новая глава в&nbsp;истории веб-разработки.
+      </p>
+      <figure class="birth__pic">
+        <img src="img/html5-sticker.svg" alt="Логотип HTML5">
+        <figcaption class="birth__caption">
+          18 января 2011 года W3C ввёл логотип, чтобы представить использование или добавить интерес к HTML5, изображен
+          справа
+        </figcaption>
+      </figure>
+      <p class="birth__descr section_descr">
+        В&nbsp;2004&nbsp;году, когда большая часть видных деятелей веб-индустрии, а&nbsp;также крупных компаний таких как
+        (Google, Mozilla, Opera, Apple и&nbsp;Microsoft), создают свою собственную рабочую группу под названием
+        <a class="birth__link" href="https://whatwg.org/" target="_blank">
+          <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr>
+        </a> (возглавил её&nbsp;гениальный программист&nbsp;&mdash; Ян&nbsp;Хиксон).
+      </p>
+      <p class="birth__descr section_descr">
+        Перед тем как начать работать над HTML5, рабочая группа WHATWG создала две спецификации: Web Forms&nbsp;2.0
+        (веб-формы) и&nbsp;Web Apps&nbsp;1.0 (веб-приложения). Затем эти две спецификации сделали частью спецификации
+        HTML5.
+      </p>
+      <p class="birth__descr section_descr">
+        В&nbsp;2006 году W3C начал разработку своей версии HTML 5 (пишется через пробел), в её основе лежали наработки
+        рабочей группы WHATWG.
+      </p>
+      <p class="birth__descr section_descr">
+        Сам WHATWG работал над своей версией HTML5 (пишется без пробела), причем эта версия тоже должна была стать одной
+        из&nbsp;спецификаций консорциума W3C.
+      </p>
+      <p class="birth__descr section_descr">
+        В&nbsp;2009 году W3C прекратил развитие XHTML 2.0 и&nbsp;начал разрабатывать HTML5 (решили писать без пробела) уже
+        совместно с&nbsp;WHATWG.
+      </p>
+      <p class="birth__descr section_descr">
+        К&nbsp;2012-му году, практически все современные браузеры в&nbsp;мире, начинают понимать язык HTML5, хотя еще и&nbsp;остаются
+        некоторые теги которые браузеры пока не&nbsp;понимают.
+      </p>
+      <p class="birth__descr section_descr">
+        На&nbsp;данный момент, работа над языком HTML5&nbsp;продолжается, создаются новые теги и&nbsp;технологии, всё это
+        добавляется в&nbsp;спецификацию, сама спецификация HTML5 была опубликовна (28&nbsp;октября 2014&nbsp;г.).
+      </p>
+      <p class="birth__descr section_descr">
+        В&nbsp;будущем, решили не&nbsp;давать цифровых версий для HTML, если будут добавляться какие-либо новшества то&nbsp;их&nbsp;просто
+        будут внедрять в&nbsp;существующую спецификацию, а&nbsp;сам язык называть просто HTML.
+      </p>
+    </section>
+    <section id="goals" class="goals art__goals">
+      <h3 class="goals__title section_title">
+        Цели HTML5
+      </h3>
+      <p class="goals__descr section_descr">
+        Согласно Википедии, цель разработки <a class="goals__link" href="https://ru.wikipedia.org/wiki/HTML5" target="_blank">HTML5:</a>
+      </p>
+      <blockquote class="goals__quote" cite="https://ru.wikipedia.org/wiki/HTML5">
+        ...улучшение уровня поддержки мультимедиа-технологий с&nbsp;одновременным сохранением обратной совместимости,
+        удобочитаемости кода для человека и&nbsp;простоты анализа для парсеров.
+      </blockquote>
+      <p class="goals__descr section_descr">
+        Вот краткое описание того, как
+        <a class="goals__link" href="https://www.makeuseof.com/tag/what-is-html5-and-how-does-it-change-the-way-i-browse-makeuseof-explains/" target="_blank">MakeUseOf</a>
+        объясняет цели HTML5:
+      </p>
+      <ul class="goals__list">
+        <li class="goals__item">
+          Устранение плагинов, таких как Flash, для общих функций, которые вам нужны. Создание собственной поддержки для
+          таких вещей, как аудио, видео и&nbsp;т.д.
+        </li>
+        <li class="goals__item">
+          Уменьшение необходимости в&nbsp;JavaScript и&nbsp;дополнительном коде с&nbsp;новыми встроенными элементами.
+        </li>
+        <li class="goals__item">
+          Обеспечение согласованности между браузерами и&nbsp;устройствами.
+        </li>
+        <li class="goals__item">
+          При этом сделать все это максимально прозрачным.
+        </li>
+      </ul>
+    </section>
+    <section id="features" class="features art__features">
+      <h3 class="features__title section_title">
+        Совместимость и возможности HTML5
+      </h3>
+      <p class="features__descr section_descr">
+        HTML5 предоставляет такой впечатляющий список новых возможностей, что основные браузеры по-прежнему не&nbsp;полностью
+        их поддерживают.
+      </p>
+      <p class="features__descr section_descr">
+        Для проверки совместимости браузеров и&nbsp;возможностей HTML5, рекомендую использовать информацию с&nbsp;веб-сайта
+        <a class="features__link" href="https://caniuse.com/" target="_blank">Can I&nbsp;use</a>&nbsp;&mdash; они
+        предоставляют актуальные таблицы поддержки браузеров для поддержки интерфейсных веб-технологий в&nbsp;настольных и&nbsp;мобильных
+        веб-браузерах.
+      </p>
+    </section>
+    <section id="semantics" class="semantics art__semantics">
+      <h3 class="semantics__title section_title">
+        Семантическая верстка в HTML5
+      </h3>
+      <p class="semantics__descr section_descr">
+        HTML&nbsp;теги, которые в&nbsp;большинстве своём используются для форматирования контента&nbsp;&mdash; они говорят
+        браузеру как показывать контент на&nbsp;странице. Они не&nbsp;дают определение типу содержащегося контента или
+        какую роль играет контент на&nbsp;странице.
+      </p>
+      <figure class="semantics__img">
+        <img src="img/semantic.svg" alt="Совместимость с браузером HTML5">
+      </figure>
+      <p class="semantics__descr section_descr">
+        Семантический HTML5 устраняет этот недостаток, определяя точные теги для пояснения четкой роли контента на&nbsp;странице.
+        Эта дополнительная информация помогает роботам/индексаторам, таким как Google и&nbsp;Bing лучше понять какой
+        контент важен, какой является второстепенным, какой используется для навигации и&nbsp;так далее. Добавляя
+        семантические HTML теги на&nbsp;ваши страницы, вы&nbsp;даете дополнительную информацию, которая помогает
+        поисковикам понимать роли и&nbsp;относительную важность разных частей ваших страниц.
+      </p>
+      <p class="semantics__descr section_descr">
+        HTML5 предлагает новые семантические элементы для определения различных частей веб-страницы:
+      </p>
+      <div class="semantics__wrap flex">
+        <ul class="semantic__list flex">
+          <li class="semantic__item">
+            &lt;article&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;aside&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;details&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;figcaption&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;figure&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;footer&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;header&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;main&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;mark&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;nav&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;section&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;summary&gt;
+          </li>
+          <li class="semantic__item">
+            &lt;time&gt;
+          </li>
+        </ul>
+        <figure class="semantics__pic flex">
+          <img src="img/semantic.jpeg" alt="Совместимость с браузером HTML5">
+        </figure>
+      </div>
+    </section>
+    <section class="source">
+      <h3 id="source" class="source__title section_title">
+        Ссылки по теме
+      </h3>
+      <p class="source__descr section_descr">
+        Поскольку для HTML5 существует так много полезных ресурсов, я&nbsp;включил дополнительную помощь некоторых из&nbsp;тех,
+        которые я&nbsp;считаю наиболее полезными:
+      </p>
+      <ul class="source__list list_reset">
+        <li class="source__item">
+          <a class="source__link" href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
+            HTML5 (Википедия)
+          </a>
+        </li>
+        <li class="source__item">
+          <a class="source__link" href="https://www.w3schools.com/html/default.asp" target="_blank">
+            Что нового в HTML5? (W3 Schools)
+          </a>
+        </li>
+        <li class="source__item">
+          <a class="source__link" href="http://html5doctor.com/" target="_blank">
+            Доктор HTML5
+          </a>
+        </li>
+        <li class="source__item">
+          <a class="source__link"
+             href="https://code.tutsplus.com/articles/21-ridiculously-impressive-html5-canvas-experiments--net-14210"
+             target="_blank">
+            21 Смешные впечатляющие эксперименты с холстом HTML5 (Envato Tuts +)
+          </a>
+        </li>
+        <li class="source__item">
+          <a class="source__link" href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/"
+             target="_blank">
+            Кодирование макета HTML 5 с нуля (Smashing Magazine)
+          </a>
+        </li>
+        <li class="source__item">
+          <a class="source__link" href="https://www.tutorialrepublic.com/html-examples.php" target="_blank">
+            Примеры HTML5: Учебное пособие
+          </a>
+        </li>
+        <li class="source__item">
+          <a class="source__link" href="https://bestvpn.org/html5demos/" target="_blank">
+            Демо-версии и примеры HTML5
+          </a>
+        </li>
+        <li class="source__item">
+          <a class="source__link" href="https://html5test.com/" target="_blank">
+            HTML5Test: насколько хорошо ваш браузер поддерживает HTML5
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section id="conclusion" class="conclusion art__conclusion">
+      <h2 class="conclusion__title">
+        Заключение
+      </h2>
+      <p class="conclusion__descr section_descr">
+        HTML5 делает более комфортным использование интернета для обычных пользователей. Также HTML5&nbsp;&mdash; это
+        объемная мощная технология, которая делает разработку более удобным и&nbsp;приятным занятием. Он&nbsp;действительно
+        делает более комфортной веб-жизнь пользователя и&nbsp;разработчика, остается только решить, на&nbsp;чей стороне&nbsp;вы?
+      </p>
+    </section>
+  </article>
+  <script defer src="js/script.js"></script>
+</body>
 </html>
